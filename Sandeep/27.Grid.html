@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+            display:grid;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+            background-color: lightgray;
+            padding: 10px;
+        }
+        .box:hover{
+            background-color: rgba(100, 150, 100, 0.5);
+            padding: 20px;
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>Simple Grid Example</h2>
+
+    <div class="grid">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>    
+</body>
+</html>

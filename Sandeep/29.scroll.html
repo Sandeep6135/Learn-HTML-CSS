@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background: black;
+        }
+        .hi{
+            width:100%;
+            overflow:hidden;
+            border: 3px solid white;
+        }
+        .hello{
+            display: flex;
+            animation: scroll 2s linear infinite;
+        }
+        .hello{
+            width: 250px;
+            height: 180px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        @keyframes scroll{
+            0%{
+                transform:translate(0%);
+            }
+            100%{
+                transform:translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <marqee>
+    <a href="https://www.google.com" target="_blank">
+    <div class="hi">
+        <div class="hello">
+            <img src="photo.jpg" alt="cat" height="150" width="150">
+            <img src="photo.jpg" alt="cat" height="150" width="150">
+            <img src="photo.jpg" alt="cat" height="150" width="150">
+            <img src="photo.jpg" alt="cat" height="150" width="150">
+            <img src="photo.jpg" alt="cat" height="150" width="150">
+            <img src="photo.jpg" alt="cat" height="150" width="150">
+            <img src="photo.jpg" alt="cat" height="150" width="150">
+            <img src="photo.jpg" alt="cat" height="150" width="150">
+            <img src="photo.jpg" alt="cat" height="150" width="150">
+            <img src="photo.jpg" alt="cat" height="150" width="150">
+        </div>
+    </div>
+    </marqee>
+    </a>
+</body>
+</html>
