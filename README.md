@@ -1,11 +1,14 @@
-# 🎓 HTML & CSS Learning Journey
-
 <div align="center">
+
+![HTML CSS Learning Journey Banner](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=1000&color=E34F26&center=true&vCenter=true&width=800&lines=HTML+%26+CSS+Learning+Journey;GCF+Global+Training;Certified+by+Pearson+VUE;35%2B+Hands-On+Exercises;3+Real-World+Projects)
+
+# 🎓 HTML & CSS Learning Journey
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Pearson VUE](https://img.shields.io/badge/Certified-Pearson%20VUE-00A1E0?style=for-the-badge)
 ![GCF Training](https://img.shields.io/badge/Training-GCF%20Global-4CAF50?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
 **A comprehensive collection of HTML & CSS exercises from my GCF Training & Certification journey**
 
@@ -284,5 +287,11 @@ A pure CSS interactive lightbulb that turns on/off without JavaScript!
 ### ⭐ Star this repo if you find it helpful!
 
 *Made with ❤️ during GCF Training*
+
+---
+
+### 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 </div>
