@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 100px;
+            position: relative;
+            animation: movebox 3s infinite alternate;
+            background-color: aquamarine;
+            color: blue;
+            padding: 50px;
+            align-items: center;
+        }
+        .box1{
+            width: 200px;
+            height: 100px;
+            position: relative;
+            animation: movebox2 3s infinite alternate;
+            background-color: red;
+            color: red;
+            padding: 50px;
+            align-items: center;
+        }
+            @keyframes movebox{ 
+            from{left: 0px;}
+            to{left: 200px;}
+        }
+            @keyframes movebox2{ 
+            from{top: 0px;}
+            to{top: 200px;}
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Sandeep
+    </div>
+    <br>
+    <img src="../02-Media/assets/Photo.jpg" alt="Photo" height="250" width="250" class="box1">
+</body>
+</html>
